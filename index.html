@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="Программа сопровождения «Энергия на максимум» — за 2 месяца трансформируем питание и образ жизни от усталости и апатии к энергии и радости. Маргарита Лунева." />
+  <title>Энергия на максимум — программа сопровождения · Маргарита Лунева</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><radialGradient id='g' cx='32%25' cy='28%25' r='78%25'><stop offset='0%25' stop-color='%23FFFCF7'/><stop offset='35%25' stop-color='%23E4EFA6'/><stop offset='70%25' stop-color='%23C8DC4A'/><stop offset='100%25' stop-color='%237FA68A'/></radialGradient></defs><path d='M16 1.5C22 2.5 28.5 6.5 30 14c1.5 7-3 14-11 16-7 1.5-15-2.5-16.5-10C1 12.5 7 4 16 1.5z' fill='url(%23g)'/><path d='M16 25 C 15.7 21 16 17 16 13.6' fill='none' stroke='%232F4A36' stroke-width='0.9' stroke-linecap='round'/><path d='M16 14 C 13 13 10.6 10.2 10 8 C 13 8.4 15.4 10.4 16 14 Z' fill='%23FFFCF7' stroke='%232F4A36' stroke-width='0.9' stroke-linejoin='round'/><path d='M16 14 C 19 13 21.4 10.2 22 8 C 19 8.4 16.6 10.4 16 14 Z' fill='%23FFFCF7' stroke='%232F4A36' stroke-width='0.9' stroke-linejoin='round'/><circle cx='16' cy='12.8' r='1' fill='%23C8DC4A'/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=EB+Garamond:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20260611a" />
+  <link rel="stylesheet" href="soprovozhdenie.css?v=20260611a" />
+</head>
+<body>
+
+  <!-- ───────────── NAV ───────────── -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__logo" aria-label="На главную">
+        <span class="nav__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32">
+            <defs>
+              <radialGradient id="logoGrad" cx="32%" cy="28%" r="78%">
+                <stop offset="0%" stop-color="#FFFCF7"/>
+                <stop offset="35%" stop-color="#E4EFA6"/>
+                <stop offset="70%" stop-color="#C8DC4A"/>
+                <stop offset="100%" stop-color="#7FA68A"/>
+              </radialGradient>
+              <radialGradient id="logoGloss" cx="28%" cy="22%" r="55%">
+                <stop offset="0%" stop-color="#FFFCF7" stop-opacity="0.7"/>
+                <stop offset="100%" stop-color="#FFFCF7" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <path d="M16 1.5C22 2.5 28.5 6.5 30 14c1.5 7-3 14-11 16-7 1.5-15-2.5-16.5-10C1 12.5 7 4 16 1.5z" fill="url(#logoGrad)"/>
+            <path d="M16 1.5C22 2.5 28.5 6.5 30 14c1.5 7-3 14-11 16-7 1.5-15-2.5-16.5-10C1 12.5 7 4 16 1.5z" fill="url(#logoGloss)"/>
+            <path d="M16 25 C 15.7 21 16 17 16 13.6" fill="none" stroke="#2F4A36" stroke-width="0.9" stroke-linecap="round"/>
+            <path d="M16 14 C 13 13 10.6 10.2 10 8 C 13 8.4 15.4 10.4 16 14 Z" fill="#FFFCF7" stroke="#2F4A36" stroke-width="0.9" stroke-linejoin="round"/>
+            <path d="M16 14 C 19 13 21.4 10.2 22 8 C 19 8.4 16.6 10.4 16 14 Z" fill="#FFFCF7" stroke="#2F4A36" stroke-width="0.9" stroke-linejoin="round"/>
+            <path d="M11 9 C 13 10.6 14.6 12.1 15.5 13.6" fill="none" stroke="#2F4A36" stroke-width="0.5" stroke-linecap="round"/>
+            <path d="M21 9 C 19 10.6 17.4 12.1 16.5 13.6" fill="none" stroke="#2F4A36" stroke-width="0.5" stroke-linecap="round"/>
+            <circle cx="16" cy="12.8" r="1" fill="#C8DC4A"/>
+            <circle cx="15.7" cy="12.4" r="0.4" fill="#FFFCF7" opacity="0.85"/>
+          </svg>
+        </span>
+      </a>
+
+      <button class="nav__burger" aria-label="Меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav__menu" aria-label="Основная навигация">
+        <a href="#audience">Кому подходит</a>
+        <a href="#includes">Что входит</a>
+        <a href="#steps">Этапы</a>
+        <a href="#price">Стоимость</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#about-me">Обо мне</a>
+        <a href="#faq">Ответы на вопросы</a>
+        <a href="https://lunevv.github.io/navigator-zdorovya/" class="nav__cross">Навигатор</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ───────────── ВВОДНЫЙ БЛОК ───────────── -->
+    <section class="hero hero--program">
+      <div class="sun-rays" aria-hidden="true"></div>
+      <div class="bloom bloom--lime hero__bloom-1" aria-hidden="true"></div>
+      <div class="bloom bloom--green hero__bloom-2" aria-hidden="true"></div>
+      <div class="glint hero__glint" aria-hidden="true"></div>
+      <svg class="hero__arc" viewBox="0 0 800 800" aria-hidden="true">
+        <defs>
+          <linearGradient id="arc1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#C8DC4A" stop-opacity="0.55"/>
+            <stop offset="100%" stop-color="#7FA68A" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <circle cx="400" cy="400" r="320" fill="none" stroke="url(#arc1)" stroke-width="1.2"/>
+        <circle cx="400" cy="400" r="260" fill="none" stroke="url(#arc1)" stroke-width="1"/>
+        <circle cx="400" cy="400" r="200" fill="none" stroke="url(#arc1)" stroke-width="0.8"/>
+      </svg>
+
+      <div class="container hero__grid">
+        <div class="hero__copy reveal">
+          <span class="hero__name">Программа сопровождения</span>
+          <h1 class="display">Энергия <em>на максимум</em></h1>
+          <p class="hero__sub">
+            За 2 месяца пройдём по маршруту повышения энергии и здоровья через питание и образ жизни для максимального раскрытия вашего потенциала
+          </p>
+          <div class="hero__offer">
+            <p>Получите индивидуальный маршрут от нехватки сил, усталости, апатии к энергии, спокойствию и радости от жизни. Вы пройдёте этот путь с поддержкой и уже после первой недели заметите большой прилив энергии, а по итогам 2&nbsp;месяцев мы трансформируем ваше питание и образ жизни, чтобы они стали мощными помощниками в раскрытии вашего потенциала и достижении целей.</p>
+          </div>
+          <div class="hero__cta">
+            <a href="https://t.me/margoluneva" target="_blank" rel="noopener" class="btn btn--primary btn--cursor">
+              Купить
+            </a>
+            <a href="#steps" class="btn btn--ghost">Как проходит</a>
+          </div>
+        </div>
+
+        <div class="hero__photo reveal">
+          <div class="photo photo--blob photo--wide">
+            <img src="assets/soprovozhdenie/hero.jpg" alt="Маргарита Лунева" loading="eager" width="1600" height="1067" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ───────────── КОМУ ПОДХОДИТ ───────────── -->
+    <section class="section section--soft" id="audience">
+      <div class="bloom bloom--lime audience__bloom" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Сопровождение</p>
+          <h2>Кому подходит</h2>
+        </header>
+
+        <ul class="feat-grid">
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/></svg></span>
+            <p>Цените свой внутренний ресурс и хотите сделать питание и образ жизни мощными помощниками, чтобы достигать своих целей и максимально реализовать себя без выгорания</p>
+          </li>
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <p>Понимаете важность питания и образа жизни, но вечно в дедлайнах и задачах, не знаете, с чего начать и как оптимально внедрить здоровые привычки, кажется, что это сложно и долго</p>
+          </li>
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.4"/><path d="M12 3v5M12 16v5M3 12h5M16 12h5"/></svg></span>
+            <p>Вам сложно внедрять здоровое питание и привычки самостоятельно, постоянно есть срывы, не хватает времени, дисциплины, чувствуете, что нужна поддержка и помощь</p>
+          </li>
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="8" width="16" height="8" rx="2.5"/><path d="M20 11v2"/><rect x="4.5" y="10.4" width="3.4" height="3.2" rx="1" fill="currentColor" stroke="none"/></svg></span>
+            <p>Ощущаете нехватку энергии: сложно просыпаться по утрам, после 8&nbsp;часов сна опять энергия на нуле, с трудом приступаете к работе, есть слабость в теле, сонливость и вялость уже в середине дня, ближе к вечеру как выжатый лимон, откладываете важные задачи изо дня в день, так как нет сил</p>
+          </li>
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17a4 4 0 0 1-.5-7.96A5.5 5.5 0 0 1 17 9.5a3.5 3.5 0 0 1 .5 7H7z"/><path d="M8 21l1-2M12 21l1-2M16 21l1-2"/></svg></span>
+            <p>Замечаете апатию, вечно плохое настроение, состояние «ничего не хочется делать», даже бытовые и простые задачки кажутся испытанием, испытываете тревогу и раздражительность по, казалось бы, мелочам</p>
+          </li>
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-4 10.5c.6.6 1 1.3 1 2.1V16h6v-.4c0-.8.4-1.5 1-2.1A6 6 0 0 0 12 3z"/></svg></span>
+            <p>Вам не нравится ваш уровень продуктивности: трудно держать фокус, есть туман в голове, нет быстроты и ясности мысли, сложно запоминать и воспроизводить информацию</p>
+          </li>
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2 6 4-13 2.5 7H21"/></svg></span>
+            <p>Имеете состояния, которые воруют энергию и снижают качество жизни (лишний вес, дефициты, постоянные простуды, проблемы с желудком, кишечником, щитовидной железой и&nbsp;др.), хотите к ним подойти комплексно через питание и образ жизни</p>
+          </li>
+        </ul>
+
+        <p class="section__lead steps__outro reveal">
+          За 2&nbsp;месяца программы я помогаю трансформировать питание и образ жизни так, чтобы они стали максимально в плюс для здоровья и энергии, реализации целей, помогаю найти такие решения, которые идеально впишутся в ваш рабочий график
+        </p>
+      </div>
+    </section>
+
+
+    <!-- ───────────── ЧТО ВКЛЮЧАЕТ ПРОГРАММА ───────────── -->
+    <section class="section section--dark" id="includes">
+      <div class="sun-rays sun-rays--dark" aria-hidden="true"></div>
+      <div class="bloom bloom--lime steps__bloom" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow eyebrow--light">Наполнение</p>
+          <h2>Что включает программа</h2>
+        </header>
+
+        <ul class="feat-grid">
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M3 9h18M8 3v4M16 3v4"/></svg></span>
+            <p>2&nbsp;месяца: неделя диагностики + 4&nbsp;недели программы + поддерживающий месяц</p>
+          </li>
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="13" height="12" rx="2.5"/><path d="M15.5 10l5-3v10l-5-3z"/></svg></span>
+            <p>5&nbsp;онлайн-сессий по одной раз в неделю + итоговая сессия в конце 2-го месяца</p>
+          </li>
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16a8 8 0 0 1-8 8 8 8 0 0 1-8-8z"/><path d="M9 3v4M12 2.5v4.5M15 3v4"/></svg></span>
+            <p>Готовые меню на первые 2&nbsp;недели программы (меню для перезагрузки организма и по сбалансированной тарелке) + помощь с рецептами</p>
+          </li>
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12 7.7L3 21l1.8-6A8.5 8.5 0 1 1 21 11.5z"/></svg></span>
+            <p>Сопровождение и поддержка в чате: материалы, задания, планеры, трекеры, ссылки на продукты, помощь с выбором продуктов в магазине, ответы на вопросы, мониторинг прогресса по рекомендациям</p>
+          </li>
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="17" rx="2"/><rect x="9" y="2.5" width="6" height="4" rx="1.2"/><path d="M9 11h6M9 14.5h6M9 18h4"/></svg></span>
+            <p>Детальный анализ вашего рациона: диагностика текущего рациона за неделю и отслеживание рациона по ходу программы</p>
+          </li>
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v5l-4.5 8a2 2 0 0 0 1.8 3h9.4a2 2 0 0 0 1.8-3L14 8V3"/><path d="M7.5 15h9"/></svg></span>
+            <p>Обратная связь по анализам: список рекомендуемых анализов и пояснения по результатам показателей</p>
+          </li>
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.5s1.4 1.8 3.5 1.8 3.5-1.8 3.5-1.8"/><path d="M9 9.5v.5M15 9.5v.5"/><path d="M18.5 6.5l1.5-1M5.5 6.5L4 5.5"/></svg></span>
+            <p>Работа с приглашённым экспертом по естественному омоложению: диагностика, индивидуальные упражнения для лица и тела</p>
+          </li>
+          <li class="feat reveal">
+            <span class="feat__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/><path d="M17 4.5l.4 1.1 1.1.4-1.1.4-.4 1.1-.4-1.1-1.1-.4 1.1-.4z"/></svg></span>
+            <p>Фишки по образу жизни для повышения энергии: работа с качеством сна и двигательной активности, над снижением тревожности и токсической нагрузки</p>
+          </li>
+        </ul>
+
+        <div class="gift reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v8a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-8"/><rect x="2.5" y="7.5" width="19" height="4.5" rx="1"/><path d="M12 7.5V21"/><path d="M12 7.5C12 7.5 11 3.5 8.2 3.5 6.4 3.5 6.2 6 8 6.8 9.3 7.4 12 7.5 12 7.5zM12 7.5C12 7.5 13 3.5 15.8 3.5 17.6 3.5 17.8 6 16 6.8 14.7 7.4 12 7.5 12 7.5z"/></svg>
+          <p><strong>В подарок</strong> — повторная консультация (в чате или созвон) через 1–4&nbsp;мес после программы согласно индивидуальному маршруту. Обычная стоимость 5000&nbsp;рублей: дам обратную связь по повторно сданным анализам и уточню рекомендации.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ───────────── ЭТАПЫ ПРОГРАММЫ ───────────── -->
+    <section class="section section--cream" id="steps">
+      <div class="bloom bloom--lime steps__bloom" aria-hidden="true"></div>
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Как проходит</p>
+          <h2>Этапы программы</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <span class="week-tag">Неделя 0 · Диагностика</span>
+            <ul class="ticks">
+              <li>Пройдёте диагностику вашего питания и образа жизни, а также лица и тела</li>
+              <li>Получите список рекомендуемых анализов для сдачи</li>
+              <li>Получите специальное меню с простыми рецептами, список продуктов для перезагрузки организма</li>
+            </ul>
+          </li>
+
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <span class="week-tag">Неделя 1 · Перезагрузка</span>
+            <ul class="ticks">
+              <li>Перезапустите свой организм без жёстких чисток и голодовок, чтобы вывести накопленные токсины и восстановить ЖКТ для лучшего усвоения всех нутриентов, повышения энергии</li>
+              <li>Получите индивидуальные упражнения для лица и тела, которые помогут вам выглядеть моложе и чувствовать себя увереннее</li>
+            </ul>
+          </li>
+
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <span class="week-tag">Неделя 2 · Баланс</span>
+            <ul class="ticks">
+              <li>Получите понятную и эффективную стратегию движения к желаемому результату по здоровью и уровню энергии с учётом вашего питания и образа жизни, анализов и текущих симптомов</li>
+              <li>Получите специальное меню с простыми рецептами и научитесь балансировать своё питание для долгой, качественной и энергичной жизни без подсчёта калорий и стресса</li>
+            </ul>
+          </li>
+
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <span class="week-tag">Неделя 3 · Замена</span>
+            <ul class="ticks">
+              <li>Замените продукты и ежедневные привычки, которые воруют вашу энергию и здоровье, на простые и вкусные альтернативы, приятные улучшения в образе жизни</li>
+            </ul>
+          </li>
+
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <span class="week-tag">Неделя 4 · Добавление</span>
+            <ul class="ticks">
+              <li>Включите в рацион продукты и блюда, которые будут усиливать ваш уровень энергии и здоровья</li>
+            </ul>
+          </li>
+
+          <li class="timeline__item reveal">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <span class="week-tag">Поддерживающий месяц</span>
+            <ul class="ticks">
+              <li>Ответы на любые возникающие вопросы (например, помощь с выбором продуктов, рецептами, проверка вашего меню)</li>
+              <li>Анализ прогресса недели в чате</li>
+              <li>Итоговая сессия по всей программе в конце месяца</li>
+            </ul>
+            <p>Поддерживающий месяц поможет не сойти с намеченного пути и продолжить движение к желаемому результату.</p>
+          </li>
+        </ol>
+
+        <div class="gift reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v8a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-8"/><rect x="2.5" y="7.5" width="19" height="4.5" rx="1"/><path d="M12 7.5V21"/><path d="M12 7.5C12 7.5 11 3.5 8.2 3.5 6.4 3.5 6.2 6 8 6.8 9.3 7.4 12 7.5 12 7.5zM12 7.5C12 7.5 13 3.5 15.8 3.5 17.6 3.5 17.8 6 16 6.8 14.7 7.4 12 7.5 12 7.5z"/></svg>
+          <p><strong>Подарок</strong> — повторная консультация (в чате или созвон) через 1–4&nbsp;мес после программы согласно индивидуальному маршруту.</p>
+        </div>
+
+        <div class="cta-row reveal">
+          <a href="https://t.me/margoluneva" target="_blank" rel="noopener" class="btn btn--primary btn--cursor btn--large">
+            Купить
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ───────────── ЧТО ВЫ ПОЛУЧИТЕ ───────────── -->
+    <section class="section section--limesoft" id="benefits">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Результат</p>
+          <h2>Что вы получите</h2>
+        </header>
+
+        <ul class="benefits">
+          <li class="benefits__card reveal">
+            <span class="benefits__num">01</span>
+            <h3>Энергия с самого утра</h3>
+            <p>Вы с энергией и бодростью просыпаетесь по утрам, заряжены начать ваш день, у вас отличное настроение.</p>
+          </li>
+          <li class="benefits__card reveal">
+            <span class="benefits__num">02</span>
+            <h3>Стабильный уровень сил</h3>
+            <p>У вас высокий уровень энергии без резких провалов в середине или конце дня, появилось больше сил, чтобы реализовывать все свои идеи, а не откладывать дела на потом.</p>
+          </li>
+          <li class="benefits__card reveal">
+            <span class="benefits__num">03</span>
+            <h3>Тонус и сияющая кожа</h3>
+            <p>Вы отлично чувствуете себя физически, у вас есть тонус в теле, вы снизили вес и отёчность, вы выглядите моложе, кожа сияет.</p>
+          </li>
+          <li class="benefits__card reveal">
+            <span class="benefits__num">04</span>
+            <h3>Ясность и концентрация</h3>
+            <p>У вас высокий уровень концентрации и мотивации, нет тумана в голове, вы быстро решаете задачи, достигаете свои цели.</p>
+          </li>
+          <li class="benefits__card reveal">
+            <span class="benefits__num">05</span>
+            <h3>Привычки в удовольствие</h3>
+            <p>Вы встроили полезные привычки в свою жизнь так, чтобы это было вкусно, быстро и в удовольствие.</p>
+          </li>
+          <li class="benefits__card reveal">
+            <span class="benefits__num">06</span>
+            <h3>Инструменты на всю жизнь</h3>
+            <p>У вас есть инструменты, которые помогут вам вернуть энергию и классное самочувствие в любой момент.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- ───────────── ОТЗЫВЫ ───────────── -->
+    <section class="section section--soft" id="reviews">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Живые истории</p>
+          <h2>Отзывы</h2>
+        </header>
+
+        <figure class="result-shot reveal">
+          <img src="assets/soprovozhdenie/result-skin.jpg" alt="Работали с высыпаниями на коже: до и после 6 месяцев — результат без медикаментов" loading="lazy" />
+          <figcaption>Работали с высыпаниями на коже · результат без медикаментов</figcaption>
+        </figure>
+      </div>
+
+      <div class="reviews">
+        <div class="reviews__track" id="reviewsTrack">
+          <figure class="review"><img src="assets/soprovozhdenie/review-1.jpg" alt="Отзыв клиента" loading="lazy" /></figure>
+          <figure class="review"><img src="assets/soprovozhdenie/review-2.jpg" alt="Отзыв клиента" loading="lazy" /></figure>
+          <figure class="review"><img src="assets/soprovozhdenie/review-3.jpg" alt="Отзыв клиента" loading="lazy" /></figure>
+          <figure class="review"><img src="assets/soprovozhdenie/review-4.jpg" alt="Отзыв клиента" loading="lazy" /></figure>
+          <figure class="review"><img src="assets/soprovozhdenie/review-5.jpg" alt="Отзыв клиента" loading="lazy" /></figure>
+        </div>
+
+        <div class="reviews__nav" aria-hidden="true">
+          <button class="reviews__btn" data-dir="-1" aria-label="Предыдущий отзыв">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="reviews__btn" data-dir="1" aria-label="Следующий отзыв">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ───────────── СТОИМОСТЬ ───────────── -->
+    <section class="section section--dark" id="price">
+      <div class="sun-rays sun-rays--dark" aria-hidden="true"></div>
+      <div class="bloom bloom--lime price__bloom" aria-hidden="true"></div>
+      <div class="container">
+        <div class="price reveal">
+          <p class="eyebrow eyebrow--light">Стоимость</p>
+
+          <p class="price__amount">
+            <span class="price__num">49&nbsp;500</span><span class="price__unit">руб.</span>
+          </p>
+
+          <p class="price__save">
+            Программа предполагает глубокую индивидуальную работу, максимальное погружение в ваши запросы по здоровью и уровню энергии, разработку материалов под вас, регулярное взаимодействие и поддержку в течение 2&nbsp;месяцев. Это инвестиция в ваше здоровье и уровень энергии.
+          </p>
+
+          <ul class="price__list">
+            <li>Программа поможет вам сэкономить от 400&nbsp;тыс. на самостоятельное погружение в тему и обучение всем нюансам, избыточные анализы и диагностику, излишние БАДы</li>
+            <li>Благодаря улучшениям в питании и образе жизни, упражнениям от эксперта по естественному омоложению вы можете снизить расходы на косметологические процедуры</li>
+            <li>С большой вероятностью вы будете меньше болеть — снизятся затраты на лечение и потери в зарплате в результате частых больничных</li>
+          </ul>
+
+          <p class="price__limit" role="note">
+            <span class="price__limit-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            </span>
+            Количество мест ограничено. Беру только&nbsp;2 человека в&nbsp;месяц
+          </p>
+
+          <a href="https://t.me/margoluneva" target="_blank" rel="noopener" class="btn btn--lime btn--cursor btn--large">
+            Купить
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ───────────── КОГДА СТОИТ ПРИЙТИ ───────────── -->
+    <section class="section section--cream">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Сигнал</p>
+          <h2>Когда особенно стоит прийти на программу?</h2>
+        </header>
+
+        <ul class="bubbles">
+          <li class="bubble reveal">
+            <p>Сложно внедрять здоровое питание и полезные привычки самостоятельно, нужна поддержка, много вопросов по продуктам, сочетаниям продуктов, рецептам и&nbsp;т.&nbsp;д.; хочется, чтобы провели за руку по всем нюансам, дали меню, по которому можно двигаться</p>
+          </li>
+          <li class="bubble bubble--alt reveal">
+            <p>Вроде питаетесь хорошо, полезные привычки уже есть, а энергии всё равно не хватает, ходите в уставшем состоянии бо́льшую часть дня, хотите увидеть слепые зоны и вместе с поддержкой над ними поработать</p>
+          </li>
+          <li class="bubble reveal">
+            <p>Хотите комплексно оценить состояние организма и получить детальную обратную связь по анализам: объяснение простым языком, о чём сигнализирует тело, рекомендации — подключать ли какие-то добавки для поддержки организма или можно только поработать с питанием и образом жизни, как совмещать добавки, чтобы было не во вред, через какое время можно повторно оценивать прогресс и&nbsp;т.&nbsp;д.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- ───────────── О СЕБЕ ───────────── -->
+    <section class="section section--soft" id="about-me">
+      <div class="bloom bloom--green about__bloom" aria-hidden="true"></div>
+      <div class="container about">
+        <div class="about__photo reveal">
+          <div class="photo photo--blob photo--blob-2">
+            <img src="assets/soprovozhdenie/about.jpg" alt="Маргарита Лунева" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="about__copy reveal">
+          <p class="eyebrow">О себе</p>
+          <h2>Маргарита Лунева</h2>
+          <p class="about__role">Консультант по питанию и образу жизни</p>
+
+          <ul class="about__list">
+            <li>Более 6&nbsp;лет в теме здорового питания и образа жизни</li>
+            <li>Дипломы академии лайфстайл медицины LIFEMED: в&nbsp;2025&nbsp;году академия признана онлайн-школой года в сфере здоровья и фитнеса по версии GetCourse, крупнейшей в России и СНГ платформы для онлайн-обучения</li>
+            <li>Опираюсь на подходы ведущих школ по питанию и клиник, последние научные исследования, в том числе на английском языке</li>
+            <li>Работаю индивидуально и веду групповые программы по здоровому питанию и образу жизни</li>
+            <li>Провожу онлайн-сессии по питанию и образу жизни для компаний</li>
+            <li>Более 4&nbsp;лет работала в консалтинге специалистом по устойчивому развитию в&nbsp;Kept&nbsp;– знаю, как совмещать полезные привычки и работу в режиме дедлайнов и многозадачности</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ───────────── ОТВЕТЫ НА ВОПРОСЫ ───────────── -->
+    <section class="section section--limesoft" id="faq">
+      <div class="container container--narrow">
+        <header class="section__head reveal">
+          <p class="eyebrow">Вопрос — ответ</p>
+          <h2>Ответы на частые вопросы</h2>
+        </header>
+
+        <div class="faq">
+          <details class="faq__item reveal">
+            <summary>Будут ли учтены в меню мои предпочтения в еде?<span class="faq__plus" aria-hidden="true"></span></summary>
+            <div class="faq__body">
+              <p>Да, конечно! Этим и хорош индивидуальный формат – меню будут учитывать ваши предпочтения, ритм жизни, степень готовности к изменениям в рационе.</p>
+            </div>
+          </details>
+
+          <details class="faq__item reveal">
+            <summary>Подойдёт ли структура программы под мой запрос?<span class="faq__plus" aria-hidden="true"></span></summary>
+            <div class="faq__body">
+              <p>Да, структура программы составлена как каркас. Конкретное наполнение будет именно по вашему запросу.</p>
+            </div>
+          </details>
+
+          <details class="faq__item reveal">
+            <summary>Возможна ли оплата по частям?<span class="faq__plus" aria-hidden="true"></span></summary>
+            <div class="faq__body">
+              <p>Да, есть внутренняя рассрочка – стоимость 49&nbsp;500&nbsp;рублей можно распределить так:</p>
+              <ul>
+                <li>2&nbsp;платежа по 24&nbsp;750&nbsp;рублей перед каждым месяцем</li>
+              </ul>
+              <p class="faq__or">ИЛИ</p>
+              <ul>
+                <li>9&nbsp;платежей по 5&nbsp;500&nbsp;рублей перед каждой неделей</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="faq__item reveal">
+            <summary>Сколько нужно времени на программу, получится ли у меня?<span class="faq__plus" aria-hidden="true"></span></summary>
+            <div class="faq__body">
+              <p>Программа основана на гибком подходе: рекомендации будут учитывать ваш темп жизни, мы будем их поэтапно интегрировать в ваш каждый день, корректировать при необходимости – у вас точно всё получится. В первый месяц лучше закладывать 3–4&nbsp;ч в неделю на онлайн-сессию, знакомство с материалами, задания.</p>
+            </div>
+          </details>
+
+          <details class="faq__item reveal">
+            <summary>Почему такая длительность у программы?<span class="faq__plus" aria-hidden="true"></span></summary>
+            <div class="faq__body">
+              <p>Ваши текущие привычки формировались годами, чтобы у мозга было минимальное сопротивление новому, очень важно двигаться постепенно и в удовольствие, не пытаться после одной консультации стать другим человеком. По опыту – 2&nbsp;месяца это оптимальный срок для того, чтобы процесс был максимально комфортным и лёгким.</p>
+            </div>
+          </details>
+
+          <details class="faq__item reveal">
+            <summary>Обязательно ли сдавать анализы?<span class="faq__plus" aria-hidden="true"></span></summary>
+            <div class="faq__body">
+              <p>Крайне желательно, так как результаты анализов могут показать дефициты по нутриентам, состояния, которые крадут энергию, красоту и здоровье. Знание первопричины по анализам помогает сделать действия ещё более целенаправленными. Если сейчас нет финансовой возможности сдать расширенный список анализов, я составлю план поэтапной сдачи, начиная с комфортной для вас суммы, подскажу лабораторию, какие анализы можно сдать бесплатно.</p>
+            </div>
+          </details>
+
+          <details class="faq__item reveal">
+            <summary>Есть ли гарантия результата?<span class="faq__plus" aria-hidden="true"></span></summary>
+            <div class="faq__body">
+              <p>Со своей стороны я гарантирую предоставить вам заявленные в программе материалы, поддержку для решения вашего запроса. Важно понимать, что ответственность за результат исходит из двух сторон — он также зависит от степени вашей реализации рекомендаций. Программа предусматривает гибкий подход — корректировку шагов под ваше самочувствие, ритм жизни, чтобы у вас получилось.</p>
+            </div>
+          </details>
+
+          <details class="faq__item reveal">
+            <summary>А точно питание и образ жизни помогут решить мой запрос?<span class="faq__plus" aria-hidden="true"></span></summary>
+            <div class="faq__body">
+              <p>Если у вас есть сомнения, можете написать мне в личные сообщения, рассказать про ваш запрос и я отправлю подробные пояснения, поможет ли в вашем конкретном случае питание и образ жизни.</p>
+            </div>
+          </details>
+
+          <details class="faq__item reveal">
+            <summary>Подойдёт ли мне программа, если я уже много всего знаю в питании и ЗОЖ? Это программа для совсем новичков в теме?<span class="faq__plus" aria-hidden="true"></span></summary>
+            <div class="faq__body">
+              <p>Наполнение программы будет именно под вас, буду конечно учитывать ваш уровень знаний, что вы уже пробовали, но не помогло и&nbsp;т.&nbsp;д.</p>
+            </div>
+          </details>
+
+          <details class="faq__item reveal">
+            <summary>Нужно будет обязательно подключать добавки, БАДы?<span class="faq__plus" aria-hidden="true"></span></summary>
+            <div class="faq__body">
+              <p>В первую очередь будем работать с запросом через питание и образ жизни, я не буду давать длинные протоколы с добавками, БАДы подскажу только точечно и по анализам, дам рекомендации по брендам, вы сможете по желанию их подключить.</p>
+            </div>
+          </details>
+
+          <details class="faq__item reveal">
+            <summary>Чем отличается программа от сессии «Навигатор здоровья»? Как понять, что лучше мне подходит?<span class="faq__plus" aria-hidden="true"></span></summary>
+            <div class="faq__body">
+              <p>Ключевые отличия:</p>
+              <p>— Наличие поддержки во внедрении рекомендаций: <a href="https://lunevv.github.io/navigator-zdorovya/" class="inline-link">Навигатор</a> больше подходит тем, кто хочет внедрять рекомендации самостоятельно, программа сопровождения — тем, кто понимает, что есть много вопросов, нужна помощь с меню, с выбором продуктов или добавок, поддержка, чтобы не сойти с пути и&nbsp;т.&nbsp;д.</p>
+              <p>— Меню по дням: входит только в сопровождение.</p>
+              <p>— Комплексная обратная связь по анализам: в программе сопровождения выделяется отдельная сессия для анализов, формат Навигатора не позволяет погрузиться детально в анализы.</p>
+              <p>— Возможность закрытия всех запросов: на Навигаторе фокус на ключевом запросе по здоровью и уровню энергии, а на сопровождении можем разобрать все текущие моменты.</p>
+              <p>Если вы понимаете, что хотите поддержку, разбор анализов, меню, охватить все запросы по здоровью, то можно сразу прийти на сопровождение. На него беру только после предварительного бесплатного звонка-знакомства.</p>
+            </div>
+          </details>
+
+          <details class="faq__item reveal">
+            <summary>Почему такая стоимость программы?<span class="faq__plus" aria-hidden="true"></span></summary>
+            <div class="faq__body">
+              <p>Программа включает глубокую индивидуальную работу, максимальное погружение в ваши запросы по здоровью и уровню энергии, разработку материалов под вас, регулярное взаимодействие и поддержку в течение 2&nbsp;месяцев.</p>
+              <p>Это инвестиция в ваше здоровье и уровень энергии:</p>
+              <p>– вы получите инструменты для улучшения вашего самочувствия, которые останутся у вас навсегда, некоторые из них вы можете применять не только для себя, но и своей семьи, повышая уровень здоровья и энергии своих близких;</p>
+              <p>– согласно исследованиям здоровое питание и образ жизни помогают снизить риски хронических заболеваний, онкологии, сэкономить годы на болезни, получить дополнительные годы жизни (здоровое питание и полезные привычки могут подарить дополнительные 8–10&nbsp;лет качественной жизни).</p>
+            </div>
+          </details>
+        </div>
+
+        <div class="cta-row reveal">
+          <a href="https://t.me/margoluneva" target="_blank" rel="noopener" class="btn btn--primary btn--cursor btn--large">
+            Купить
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- ───────────── FOOTER ───────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32">
+            <path d="M16 1.5C22 2.5 28.5 6.5 30 14c1.5 7-3 14-11 16-7 1.5-15-2.5-16.5-10C1 12.5 7 4 16 1.5z" fill="url(#logoGrad)"/>
+            <path d="M16 1.5C22 2.5 28.5 6.5 30 14c1.5 7-3 14-11 16-7 1.5-15-2.5-16.5-10C1 12.5 7 4 16 1.5z" fill="url(#logoGloss)"/>
+            <path d="M16 25 C 15.7 21 16 17 16 13.6" fill="none" stroke="#2F4A36" stroke-width="0.9" stroke-linecap="round"/>
+            <path d="M16 14 C 13 13 10.6 10.2 10 8 C 13 8.4 15.4 10.4 16 14 Z" fill="#FFFCF7" stroke="#2F4A36" stroke-width="0.9" stroke-linejoin="round"/>
+            <path d="M16 14 C 19 13 21.4 10.2 22 8 C 19 8.4 16.6 10.4 16 14 Z" fill="#FFFCF7" stroke="#2F4A36" stroke-width="0.9" stroke-linejoin="round"/>
+            <circle cx="16" cy="12.8" r="1" fill="#C8DC4A"/>
+          </svg>
+        </span>
+        <div>
+          <p class="footer__name">Маргарита&nbsp;Лунева</p>
+          <p class="footer__role">Питание · Медицина образа жизни</p>
+        </div>
+      </div>
+
+      <div class="footer__contacts">
+        <a href="https://lunevv.github.io/navigator-zdorovya/" class="footer__tg">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2 3 7v6c0 5 4 8 9 9 5-1 9-4 9-9V7l-9-5z"/></svg>
+          <span>
+            <span class="footer__tg-label">Сессия</span>
+            <span class="footer__tg-handle">Навигатор здоровья</span>
+          </span>
+        </a>
+
+        <a href="https://t.me/margoluneva" target="_blank" rel="noopener" class="footer__tg">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.78 15.74 9.6 18.7c.3 0 .43-.13.6-.28l1.42-1.36 2.94 2.15c.54.3.93.14 1.08-.5l1.96-9.17c.18-.81-.29-1.13-.81-.94L4.7 12.86c-.79.3-.78.74-.14.94l3.04.95 7.05-4.45c.33-.21.63-.09.39.13z"/></svg>
+          <span>
+            <span class="footer__tg-label">Личные сообщения</span>
+            <span class="footer__tg-handle">@margoluneva</span>
+          </span>
+        </a>
+
+        <a href="https://t.me/lunelife" target="_blank" rel="noopener" class="footer__tg footer__tg--channel">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path fill="currentColor" d="M3 11.5L21 4l-3.5 17-5.5-7.5 8-9-10 7L3 11.5z"/>
+          </svg>
+          <span>
+            <span class="footer__tg-label">Telegram-канал</span>
+            <span class="footer__tg-handle">@lunelife</span>
+          </span>
+        </a>
+      </div>
+
+      <p class="footer__copy">© <span id="year"></span> Маргарита Лунева</p>
+    </div>
+  </footer>
+
+  <script src="script.js?v=20260611a" defer></script>
+</body>
+</html>
