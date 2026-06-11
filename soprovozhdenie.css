@@ -40,6 +40,7 @@
   color: var(--ink);
 }
 .hero__offer p { margin: 0; }
+.hero--program .hero__cta { margin-top: 2em; }
 
 /* ------- Карточки «фишек» с линейными иконками ------- */
 .feat-grid {
