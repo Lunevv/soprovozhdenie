@@ -1,7 +1,6 @@
 /* ============================================================
    «Энергия на максимум» — программа сопровождения
-   Доп. стили поверх styles.css. Палитра/шрифты — общие с лендингом
-   «Навигатор здоровья», но контраст усилен (тёмно-зелёный, шоколад).
+   Доп. стили поверх styles.css.
    ============================================================ */
 
 :root {
@@ -15,11 +14,11 @@
 }
 
 .photo--wide {
-  width: clamp(300px, 44vw, 540px);
-  aspect-ratio: 3/2;
-  border-radius: 56% 44% 52% 48% / 54% 50% 50% 46%;
+  width: clamp(300px, 42vw, 520px);
+  aspect-ratio: 1/1;
+  border-radius: 66% 34% 58% 42% / 46% 58% 42% 54%;
 }
-.photo--wide img { object-position: center 28%; }
+.photo--wide img { object-position: center 26%; }
 
 .hero__name {
   display: block;
@@ -127,34 +126,14 @@
   padding: 5px 14px;
   margin-bottom: 12px;
 }
-
-/* ------- Блок результата ДО/ПОСЛЕ ------- */
-.result-shot {
-  max-width: 460px;
-  margin: 0 auto clamp(32px, 4vw, 48px);
-}
-.result-shot img {
-  width: 100%;
-  border-radius: var(--r-md);
-  box-shadow: var(--shadow-lg);
-  border: 1px solid rgba(127, 166, 138, .2);
-}
-.result-shot figcaption {
-  margin-top: 14px;
-  text-align: center;
-  font-family: var(--font-head);
-  font-weight: 500;
-  color: var(--green-soft);
-  font-size: 1rem;
-}
-
-/* Внутренняя ссылка-акцент (в FAQ на Навигатор) */
-.inline-link {
+.week-tag__sep {
+  display: inline-block;
+  font-size: 1.7em;
+  line-height: 0;
+  vertical-align: -0.18em;
+  margin: 0 0.32em;
   color: var(--lime-deep);
-  font-weight: 600;
-  border-bottom: 1.5px solid rgba(166, 190, 46, .5);
 }
-.inline-link:hover { border-bottom-color: var(--lime-deep); }
 
 /* Рассрочка-список внутри FAQ */
 .faq__body ul { margin: 0.4em 0 0; padding-left: 1.1em; }
